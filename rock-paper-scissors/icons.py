@@ -1,5 +1,5 @@
-rock = {"title": "rock", "symbol": "ROCK OP"}
+rock = {"title": "rock", "symbol": "✊"}
 
-paper = {"title": "paper", "symbol": "PAPER_OP"}
+paper = {"title": "paper", "symbol": "✋"}
 
-scissors = {"title": "scissors", "symbol": "SCISSORS_BRO"}
+scissors = {"title": "scissors", "symbol": "✌️"}

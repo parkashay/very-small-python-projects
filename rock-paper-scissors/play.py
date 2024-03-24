@@ -14,17 +14,20 @@ def choose_winner(p1, computer):
 
 def play():
     items = {"1": rock, "2": paper, "3": scissors}
-    random_choice = random.choice(["rock", "paper", "scissors"])
-    print(items.keys())
-    user = input("[1] -> rock \n[2] -> paper \n[3] -> scissors\n ->")
+    choices = ["1", "2", "3"]
+    user = input("[1] -> rock \n[2] -> paper \n[3] -> scissors\n -> ")
 
     # handle invalid choice
-    if user not in ["1", "2", "3"]:
+    if user not in choices:
         print("Invalid choice")
         return None
-    
-    # convert the choice into integer
-    res = choose_winner(items[user]['title'], random_choice)
+
+    random_choice = random.choice(choices)
+    print("You:", items[user]["symbol"], "\nComputer:", items[random_choice]["symbol"])
+    # choose the winner
+    res = choose_winner(
+        items[user]["title"].lower(), items[random_choice]["title"].lower()
+    )
     (
         print("It's a Draw")
         if res == None
