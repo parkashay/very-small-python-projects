@@ -7,9 +7,8 @@
 
 ### How to run:
 
-    cd into a project and just run the main.py file.
-    example:
-        ```bash
-            cd quiz
+cd into a project and just run the main.py file.
+example:
+`           cd quiz
             python main.py
-        ```
+      `
