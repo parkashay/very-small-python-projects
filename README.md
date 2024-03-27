@@ -10,8 +10,5 @@
     cd into a project and just run the main.py file.
 
     example:
-
-    ```
     cd quiz
     python main.py
-    ```
