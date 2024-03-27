@@ -7,10 +7,11 @@
 
 ### How to run:
 
-cd into a project and just run the main.py file.
-example:
+    cd into a project and just run the main.py file.
 
-```
- cd quiz
- python main.py
-```
+    example:
+
+    ```
+    cd quiz
+    python main.py
+    ```
