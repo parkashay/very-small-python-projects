@@ -9,7 +9,7 @@ class Game:
         print(item["question"] + "\n")
         for option, value in item["options"].items():
             print(f"[{option}] -> {value} \n")
-        chosen = input("Enter your choice: ")
+        chosen = input("Enter your choice: ").lower()
         if chosen == item["correct_answer"]:
             self.score += 1
 
